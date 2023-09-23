@@ -1,0 +1,3 @@
+dbt_env/
+dbt-postgres-db/
+logfile
