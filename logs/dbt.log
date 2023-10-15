@@ -1,0 +1,30 @@
+[0m13:00:04.202599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103459d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061579d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061578b0>]}
+
+
+============================== 13:00:04.204887 | ef3436ec-9bf6-4638-a3d1-c448c1edeee5 ==============================
+[0m13:00:04.204887 [info ] [MainThread]: Running with dbt=1.6.2
+[0m13:00:04.205193 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/sean/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:00:04.205480 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/sean/.dbt')}
+[0m13:00:04.205645 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m13:00:22.252524 [debug] [MainThread]: Starter project path: /Users/sean/github/dbt_postgres_template/dbt_env/lib/python3.10/site-packages/dbt/include/starter_project
+[0m13:00:22.264153 [info ] [MainThread]: 
+Your new dbt project "dbt_template" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:00:22.264730 [info ] [MainThread]: Setting up your profile.
+[0m13:00:35.457548 [info ] [MainThread]: Profile dbt_template written to /Users/sean/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m13:00:35.458125 [debug] [MainThread]: Command `dbt init` succeeded at 13:00:35.458043 after 31.27 seconds
+[0m13:00:35.458392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103459d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1002d7c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1061a0c70>]}
+[0m13:00:35.458671 [debug] [MainThread]: Flushing usage events
